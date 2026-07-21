@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const BASE_URL = 'https://courtiq-backend-44aa.onrender.com';
 
 function getToken() {
   return localStorage.getItem('tennis_token');
